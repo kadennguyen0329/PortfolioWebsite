@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaden's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NavBar Section -->
+     <nav class="navbar">
+        <!-- Most "Sections" of HTML will have the main section, then a container section with all elements-->
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Welcome to My Home Page!</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">
+                        About
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Experiences" class="navbar__links" id="experiences-page">
+                        Experiences
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Projects" class="navbar__links" id="projects-page">
+                        Projects
+                    </a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+     <!-- Hero Section -->
+      <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">My name is</h1>
+            <span class="hero__headingName">Kaden Nguyen</span>
+            <p class="hero__description">Asiring Software Engineer</p>
+            <button class="main__btn"><a href="https://www.linkedin.com/in/kadennguyen0329/">Check Out my LinkedIn!</a></button>
+        </div>
+      </div>
+    <div class="divider"></div>
+      <!-- About Section -->
+       <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card">
+                    <img class="headshot" src="/KadenNguyenPortfolioWebsite/PortfolioWebsite/HeadShot.jpg">
+                </div>
+            </div>
+            <div class="main__content">
+                <h1>Who am I?</h1>
+                <h2>Computer Science and Data Science Student at the University of Virginia</h2>
+                <p>I am always seeking new real-world experiences that will hone my technological skills in critical thinking, collaboration, and practical implementation of ideas. I constantly strive to apply my knowledge in meaningful ways that make a tangible impact and hope to continually evolve as a problem-solver and innovator, using my creativity and technical expertise.</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <!-- Experiences -->
+         <div class="experiences" id="experiences">
+            <h1>My Experiences</h1>
+            <div class="experiences__wrapper">
+                <div class="experiences__card">
+                    <h2>TechSur</h2>
+                    <h3>SWE Intern</h3>
+                    <p>I developed a React.js user interface for an AI application, allowing for efficient filtering and sorting of over 7,000 uploaded documents, which improved document processing speed by 60%. Additionally, I utilized Spring Boot to program a REST API microservice that streamlined task management, reducing task handling time by 20%. To ensure a consistent and visually appealing user experience, I applied SCSS to style the front-end of the application, resulting in a 25% increase in user satisfaction based on feedback from over 10 testers. Throughout the project, I collaborated with a team of six interns, effectively breaking down complex features into manageable tasks.
+                    </p>
+                    <div class="experiences__btn">
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="experiences__card">
+                    <h2>BRAIN Lab</h2>
+                    <h3>Research Assistant</h3>
+                    <p>I worked with Professor Arsalan Heydarian, contributing to research efforts commissioned by the Department of Transportation and the Federal Highway Administration. I leveraged Unity3D to build immersive VR simulations of cycling environments within Charlottesville, VA, enhancing the speed of behavioral research data collection by 80%. Additionally, I implemented C# scripting to manipulate in-simulation elements, such as bike lane presence and roundabout configurations, which increased study efficiency by 30%. I also utilized Unity ProBuilder for efficient 3D modeling of roundabouts, incorporating variable features like standard and protected bike lanes.
+                    </p>
+                    <div class="experiences__btn">
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="experiences__card">
+                    <h2>First Robotics</h2>
+                    <h3>Programming Team</h3>
+                    <p>I created robot control software using WPILib, a Java framework designed specifically for FRC robots. Working with a team of programmers, we divided and assigned tasks to integrate electronic components such as motors, sensors, and cameras, and utilized computer vision libraries, which improved the robot’s accuracy by 35%. I applied object-oriented programming principles to develop reusable and maintainable subsystems representing distinct robot functionalities, including the drivetrain, manipulator arm, and vision processing. Additionally, I used a command-based architecture to define robot actions by composing subsystem functionalities, promoting modularity and ease of testing.
+                    </p>
+                    <div class="experiences__btn">
+                        <button>See more</button>
+                    </div>
+                </div>
+            </div>
+         </div>
+       </div>
+
+       <!-- TO DO: Add Projects Section -->
+     <script src="app.js"></script>
+</body>
+</html>
