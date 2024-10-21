@@ -33,14 +33,14 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 50px;
   }
   
   #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to right, #ff0844 0%, #ee4a19 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -68,9 +68,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 125px;
     text-decoration: none;
     height: 100%;
+    padding: 1rem;
     transition: all 0.3s ease;
   }
   
@@ -253,8 +253,7 @@
 
 .main__content h1{
   font-size: 2.5rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #ff087b 0%, #bd1a52 100%);
+  background-image: linear-gradient(to right, #ff0844 0%, #f76a3f 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
